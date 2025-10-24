@@ -1,11 +1,11 @@
-// app/(tabs)/index.tsx
+// app/(tabs)/events.tsx
 import { View, Text, StyleSheet } from "react-native";
 
-export default function HomeScreen() {
+export default function EventsScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Home</Text>
-      <Text>Welcome to SpartanPath 👋</Text>
+      <Text style={styles.title}>Events</Text>
+      <Text>Event feed will go here 🗓️</Text>
     </View>
   );
 }

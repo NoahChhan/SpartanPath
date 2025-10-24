@@ -1,11 +1,11 @@
-// app/(tabs)/index.tsx
+// app/(tabs)/map.tsx
 import { View, Text, StyleSheet } from "react-native";
 
-export default function HomeScreen() {
+export default function MapScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Home</Text>
-      <Text>Welcome to SpartanPath 👋</Text>
+      <Text style={styles.title}>Map</Text>
+      <Text>Campus map placeholder 🗺️</Text>
     </View>
   );
 }
